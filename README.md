@@ -69,17 +69,7 @@ The **SEN1-2 Scene** dataset is derived from the **SEN1-2** benchmark and is tai
 
 ---
 
-## 5. Method at a Glance
-
-**Pipeline:**
-1. SAR input → **E²** edge enhancement (edge cues + speckle suppression)
-2. Enhanced SAR → **HSE encoder** extracts hierarchical structure
-3. Structure cues injected into diffusion intermediate layers
-4. **Diffusion Bridge (Doob’s h-transform)** generates optical-like imagery with strong structure preservation
-
----
-
-## 6. Installation
+## 5. Installation
 
 ```bash
 git clone https://github.com/<yourname>/SADBM.git
