@@ -56,27 +56,19 @@ We evaluate SADBM on two representative datasets and demonstrate consistent impr
 Example (replace with your numbers):
 - PSNR ↑ / SSIM ↑
 - FID ↓ / LPIPS ↓
-- Edge-F1 ↑ / Structure Similarity ↑ (if applicable)
 
 ---
 
 ## 4. Datasets
 
-### 4.1 Benchmarks
-- **Dataset A**: (e.g., SAR-Optical paired dataset, region/season info)
-- **Dataset B**: (e.g., SAR-Optical paired dataset, scene diversity)
-
-> Provide download links / preprocessing details here.
+### 4.1 SAR2Opt
+[[> Put download link / citation / preprocessing steps here.](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset)]
 
 ### 4.2 SEN1-2 Scene (Proposed)
 We propose **SEN1-2 Scene**, a dataset with:
 - **Multi-seasonal** SAR–optical observations,
 - **Scene-level labels** for downstream classification,
 - Designed to validate SADBM’s capability beyond generation (e.g., representation transfer).
-
-**Directory structure (suggested):**
-
-
 ---
 
 ## 5. Method at a Glance
