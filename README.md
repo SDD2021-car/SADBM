@@ -6,7 +6,7 @@
 
 ## 🔥 News
 - **[2026/02]** Initial release of SADBM repository (code, configs, and evaluation scripts).
-- **[2026/02]** Release of **SEN1-2 Scene** dataset (multi-seasonal, scene-level labels) for downstream classification validation.
+- **[TBD]** Release of **SEN1-2 Scene** dataset (multi-seasonal, scene-level labels) upon paper publication for downstream classification validation.
 - **[TBD]** Full code and pretrained models will be released upon paper acceptance.
 
 ---
