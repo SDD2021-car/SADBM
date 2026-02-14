@@ -51,7 +51,6 @@ We evaluate SADBM on two representative datasets and demonstrate consistent impr
 - **Structural fidelity** (alignment with SAR-derived geometry),
 - Overall translation quality.
 > 📌 Actual metrics.
-
 - **PSNR↑**
 - **SSIM↑**
 - **RMSE↓**
