@@ -21,27 +21,18 @@ However, existing generative approaches (GANs and diffusion models) often strugg
 
 To address these challenges, we propose **SADBM (Structure-Aware Diffusion Bridge Model)**.
 
----
 
+---
 ## 2. Key Contributions
 
 ### 2.1 Structure-Aware Diffusion Bridge (Doob’s h-transform)
-We introduce a **theoretically grounded** framework that incorporates **Doob’s h-transform** into the diffusion process, constructing a **Diffusion Bridge** that:
-- Enables an **explicit** mapping mechanism from SAR → optical domain,
-- Treats SAR images as **full source distributions** rather than weak conditional hints,
-- Improves controllability and structural consistency in the generation process.
+We incorporate **Doob’s h-transform** into the diffusion process to build a **Diffusion Bridge** for explicit **SAR→optical** mapping, treating SAR as a **source distribution** and improving structural consistency.
 
-### 2.2 Edge-information Enhancement Module (E²)
-The **E² module** enhances SAR structural cues while suppressing speckle noise:
-- Computes **fused SAR edge maps**, guided by **optical edge maps**,
-- Strengthens edges and structural boundaries critical for realism,
-- Reduces speckle-driven artifacts that may corrupt geometry.
+### 2.2 Edge-information Enhancement (E²)
+**E²** enhances SAR structural cues by fusing SAR edge maps with guidance from optical edges, while suppressing speckle-induced artifacts.
 
-### 2.3 Hierarchical Structural Extraction Encoder (HSE)
-The **HSE encoder** captures robust structure representations by:
-- Extracting **global-to-local** structural features,
-- Injecting **multi-scale structure cues** into intermediate layers,
-- Improving structural stability under diverse scenes and seasons.
+### 2.3 Hierarchical Structural Extraction (HSE)
+**HSE** extracts **global-to-local** structures and injects **multi-scale** cues into intermediate layers for robust structure representation.
 
 ---
 
