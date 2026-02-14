@@ -50,25 +50,24 @@ We evaluate SADBM on two representative datasets and demonstrate consistent impr
 - **Structural realism** (shapes, edges, layouts),
 - **Structural fidelity** (alignment with SAR-derived geometry),
 - Overall translation quality.
+> 📌 Actual metrics.
 
-> 📌 Please update this section with your actual metrics / plots once finalized.
-
-Example (replace with your numbers):
-- PSNR ↑ / SSIM ↑
-- FID ↓ / LPIPS ↓
+- **PSNR↑**
+- **SSIM↑**
+- **RMSE↓**
+- **LPIPS↓**
+- **FSIM↑**
 
 ---
 
 ## 4. Datasets
 
 ### 4.1 SAR2Opt
-[[> Put download link / citation / preprocessing steps here.](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset)]
+[[> SAR2Opt.](https://github.com/MarsZhaoYT/SAR2Opt-Heterogeneous-Dataset)]
 
-### 4.2 SEN1-2 Scene (Proposed)
-We propose **SEN1-2 Scene**, a dataset with:
-- **Multi-seasonal** SAR–optical observations,
-- **Scene-level labels** for downstream classification,
-- Designed to validate SADBM’s capability beyond generation (e.g., representation transfer).
+### 4.2 SEN1-2 Scene
+The **SEN1-2 Scene** dataset is derived from the **SEN1-2** benchmark and is tailored for **SAR-optical scene-level classification**.
+
 ---
 
 ## 5. Method at a Glance
